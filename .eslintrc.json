@@ -1,0 +1,55 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": ["plugin:react/recommended", "airbnb", "prettier/react"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": ["react", "@typescript-eslint", "prettier"],
+    "rules": {
+      "react/jsx-filename-extension": [
+        "error",
+        {
+          "extensions": [".tsx"]
+        }
+      ],
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ],
+      "global-require": "off",
+      "import/prefer-default-export": "off",
+      "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+      "no-use-before-define": "off",
+      "import/no-unresolved": "off",
+      "import/extensions": "off",
+      "space-before-function-paren": "off",
+      "react/prop-types": "off",
+      "object-curly-spacing": "off",
+      "object-curly-newline": "off",
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "linebreak-style": "off",
+      "jsx-a11y/label-has-associated-control": "off",
+      "no-ternary": "off",
+      "no-nested-ternary": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "react/no-array-index-key": "off",
+      "no-plusplus": "off",
+      "indent": "off",
+      "operator-linebreak": "off",
+      "camelcase": "off",
+      "no-unused-vars": "warn",
+      "implicit-arrow-linebreak": "off"
+    }
+  }
+  
